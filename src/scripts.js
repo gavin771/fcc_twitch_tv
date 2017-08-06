@@ -73,6 +73,18 @@ function loadTabs(data) {
     var onlineHtml = "<div class=\"ui divided items\">";
     var offlineHtml = "<div class=\"ui divided items\">";
 
+
+    $('.ui.search').search({
+        source: data,
+        fields: {
+            title: 'name'
+        },
+        searchFullText: false,
+        searchFields: [
+            'name'
+        ]
+    });
+
     data.forEach(function (e) {
         var itemHtml = "";
         //     
