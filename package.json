@@ -1,0 +1,23 @@
+{
+  "name": "twitch_tv",
+  "version": "1.0.0",
+  "description": "A free code camp project.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@personal_git:gavin771/fcc_twitch_tv.git"
+  },
+  "keywords": [],
+  "author": "Gavin Samuels",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "3.0.0",
+    "gh-pages": "1.0.0",
+    "gulp": "3.9.1",
+    "gulp-gh-pages": "0.5.4",
+    "gulp-install": "1.1.0"
+  }
+}

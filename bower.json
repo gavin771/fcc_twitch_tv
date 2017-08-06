@@ -1,0 +1,22 @@
+{
+  "name": "twitch_tv",
+  "homepage": "https://github.com/gavin771/fcc_random_quote_machine",
+  "authors": [
+    "Gavin Samuels <gavin.samuels10@gmail.com>"
+  ],
+  "description": "Free code camp project for the twitch tv api",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "semantic-ui#^2.2.11",
+    "moment": "^2.18.1"
+  }
+}
